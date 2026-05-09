@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 model = YOLO('yolov8n.pt')  # model ringan
 
 # Load gambar
-image_path = 'objekPred.jpg'  # ganti dengan path gambar kamu
+image_path = 'objekPred.jpeg'  # ganti dengan path gambar kamu
 img = cv2.imread(image_path)
 
 # Deteksi objek
